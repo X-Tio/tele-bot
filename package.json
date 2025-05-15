@@ -1,7 +1,7 @@
 {
   "name": "Tele Bot",
   "version": "1.0.0",
-  "description": "TelegramBot Type plugins Cjs",
+  "description": "Bot Telegram modular dengan plugin dinamis, subfolder, dibangun oleh Tio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
