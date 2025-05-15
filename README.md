@@ -27,6 +27,7 @@ TelegramBot ini dibangun menggunakan `node-telegram-bot-api` dan mendukung siste
 
 ## 🚀 Struktur Folder
 
+```bash
 TelegramBot/
 ├── index.js             # Entry point utama
 ├── handler.js           # Loader plugin & command handler
@@ -34,17 +35,17 @@ TelegramBot/
 ├── lib/
 │   └── logger.js        # Logger aktivitas bot
 ├── plugins/
-│   ├── main/menu.js     # Plugin menu otomatis
-│   └── ai/openai.js     # Contoh plugin AI
+│   ├── main/help.js     # Plugin menu otomatis
+│   └── ai/file.js     # Contoh plugin 
 └── package.json         # Info dependensi & script
-
+```
 ---
 
 ## 📥 Instalasi
 
 ```bash
-git clone https://github.com/namamu/TelegramBot
-cd TelegramBot
+git clone https://github.com/X-Tio/tele-bot
+cd tele-bot
 npm install
 ````
 
@@ -67,6 +68,11 @@ module.exports = {
 npm start
 ```
 
+## Nodemon Run
+
+```bash
+npm run dev
+```
 ---
 
 ## 📜 Contoh Perintah
@@ -81,8 +87,8 @@ npm start
 
 * 👤 **Tio**
 * 📱 Chat via WhatsApp: [wa.me/6282285357346](https://wa.me/6282285357346)
-* 📬 Telegram: [@username](https://t.me/yourusername)
 
 ---
 
-> 🔐 Script ini bersifat open-source untuk pembelajaran. Gunakan dengan bijak.
+> Script Bot WhatsApp? bisa ke wa saya. Script ringan anti delay, simple, dan rapi.
+> 🔐 Script ini bersifat open-source untuk pembelajaran. Gunakan dengan bijak. jangan dijual ya kang. gratis ini _-
